@@ -37,8 +37,7 @@ public class RationalTester
         System.out.println("r1 - r2: " + r5);
         System.out.println("r1 * r2: " + r6);
         System.out.println("r1 / r2: " + r7);
-        
-        
+          
        
     }
 }

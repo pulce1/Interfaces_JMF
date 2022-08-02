@@ -26,7 +26,7 @@ public class Application
 		else 
 			System.out.println("R1 is greater");
 		
-		//compare
+		//compare rational numbers to each other to see which is larger
 		compare = r5.compareTo(r6);
 //using if statements to figure out which is bigger or equal
 		if(compare == 0)

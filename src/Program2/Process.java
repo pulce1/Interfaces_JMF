@@ -52,6 +52,5 @@ public class Process implements Priority, Comparable<Process>{
 
 		}//end compareTo
 	
-	
 
 }//end class

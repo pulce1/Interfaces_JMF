@@ -84,12 +84,5 @@ public class Task implements Priority, Comparable<Task>
 			return 1;
 
 		}//end compareTo
-	
-	
-	
-	
-	
-
-
-	
-}
+		
+}//end class

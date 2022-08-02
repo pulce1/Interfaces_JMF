@@ -163,7 +163,7 @@ public class RationalNumber implements Comparable<RationalNumber>
         return num1;
     }//end gcd
     
-
+//using compareTo to find which number is bigger than the other
 public int compareTo(RationalNumber rhs)
 {
 

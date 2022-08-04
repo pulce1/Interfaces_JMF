@@ -1,4 +1,9 @@
-
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 1
+ * Application.java
+ */
 public class Application
 
 {

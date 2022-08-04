@@ -1,15 +1,31 @@
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 2
+ * Process.java
+ */
 package Program2;
 
 public class Process implements Priority, Comparable<Process>{
 	private String processID;
 	private int priority;
-
+	
+	/**
+	 * empty argument constructor
+	 *@param processID
+	 *@param priority
+	 */
 	public Process()
 	{
 		this.processID = "";
 		this.priority = 0;
 	}//end empty argument constructor
 	
+	/**
+	 * Proffered constructor for the class
+	 * @param processID
+	 * @param priority
+	 */
 	public Process(String processID, int priority)
 	{
 		this.processID = processID;

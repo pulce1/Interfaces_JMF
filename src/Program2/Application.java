@@ -1,3 +1,9 @@
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 2
+ * Application.java
+ */
 package Program2;
 
 import Program2.Task.Status;

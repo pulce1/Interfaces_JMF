@@ -4,7 +4,12 @@
 //
 //  Driver to exercise the use of multiple Rational objects.
 //********************************************************************
-
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 1
+ * RationalTester.java
+ */
 public class RationalTester
 {
     //-----------------------------------------------------------------

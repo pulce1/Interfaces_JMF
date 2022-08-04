@@ -1,5 +1,10 @@
 package Program2;
-
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 2
+ * Priority.java
+ */
 public interface Priority {
 	//setting up priority values
 	static final int MED_PRIORITY = 5;

@@ -1,3 +1,9 @@
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 2
+ * Task.java
+ */
 package Program2;
 
 
@@ -11,14 +17,23 @@ public class Task implements Priority, Comparable<Task>
 	
 	private int priority;
 	private String name;
-	private Status status;
+	public Status status;
 	//end instance fields
-	
+	/**
+	 * Empty argument constructor
+	 * @param name
+	 * @param priority 
+	 */
 	public Task () {
 		this.name = "";
 		this.priority = 0;
 	}//end empty argument constructor
-	
+	/**
+	 * Preffered argument constructors
+	 * @param name
+	 * @param priority
+	 * @param status
+	 */
 	public Task (String name, int priority, Status status) {
 		this.name = name;
 		this.priority = priority;

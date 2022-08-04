@@ -4,7 +4,12 @@
 //
 //  Represents one rational number with a numerator and denominator.
 //********************************************************************
-
+/**
+ * @author james Frayser
+ * Summer 2022
+ * Program 1
+ * RationalNumber.java
+ */
 public class RationalNumber implements Comparable<RationalNumber>
 {
     private int numerator, denominator;
@@ -13,6 +18,12 @@ public class RationalNumber implements Comparable<RationalNumber>
     //  Constructor: Sets up the rational number by ensuring a nonzero
     //  denominator and making only the numerator signed.
     //-----------------------------------------------------------------
+    
+    /**
+     * Proffered argument constructor
+     * @param numer
+     * @param denom
+     */
     public RationalNumber(int numer, int denom)
     {
         if (denom == 0)

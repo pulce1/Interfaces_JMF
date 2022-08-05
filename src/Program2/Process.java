@@ -42,11 +42,17 @@ public class Process implements Priority, Comparable<Process>{
 		this.priority = priority;
 	}//end setPriority
 	@Override
+	/**
+	 * toString to be able to print out in the application class.
+	 */
 	public String toString() {
 		return "Process [processID=" + processID + ", priority=" + priority + "]";
 	}//end toString
 	
 	@Override
+	/**
+	 * compareTo to compare whether one process has more priority
+	 */
 	public int compareTo(Process rhs)
 	{
 

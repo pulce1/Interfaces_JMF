@@ -15,12 +15,16 @@ public class Application {
 
 	public static void main(String[] args) {
 		
-		//array lists for both the tasks and processes so it fills like a list 
+		/**
+		 * array lists for both the tasks and processes so it fills like a list 
+		 */
 		ArrayList<Task> tasks = new ArrayList<Task>();
 		ArrayList<Process> processes = new ArrayList<Process>();
 		
 		
-		//Setting up prints of the toString as a blanket for the printing of the array
+		/**
+		 * Setting up prints of the toString as a blanket for the printing of the array
+		 */
 		Task t1 = new Task("Mow Lawn", Priority.MED_PRIORITY, Status.NOT_STARTED);
 		System.out.println(t1.toString());
 		Process p1 = new Process("VWXYZ", Priority.MED_PRIORITY);
@@ -34,7 +38,9 @@ public class Application {
 		Process p3 = new Process("GYM", Priority.MED_PRIORITY);
 		System.out.println(p3.toString());
 		
-		//adding the different tasks and processes to the array list
+		/**
+		 * adding the different tasks and processes to the array list
+		 */
 		tasks.add(t1);
 		processes.add(p1);
 		tasks.add(t2);
@@ -46,6 +52,9 @@ public class Application {
 		//prints out the tasks in order of priority from the array list
 		Collections.sort(tasks, Collections.reverseOrder());
  
+		/**
+		 * Iterator used to list the tasks and processes in order of priority from an array
+		 */
 		Iterator<Task> tsk = tasks.iterator();
 		
  
@@ -68,7 +77,9 @@ public class Application {
 		}
 		
 		
-		//compareTo for all the tasks and processes to find out which has more priority
+		/**
+		 * compareTo for all the tasks and processes to find out which has more priority
+		 */
 		int compare = t1.compareTo(t2);
 		
 				if(compare == 0)

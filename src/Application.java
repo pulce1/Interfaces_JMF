@@ -10,20 +10,27 @@ public class Application
 
 	public static void main(String[] args)
     {
-		//setting up the rational numbers
+		/**
+		 * setting up the rational numbers
+		 */
 		RationalNumber r1 = new RationalNumber(12, 48);
 		RationalNumber r2 = new RationalNumber(12, 48);
 		RationalNumber r5 = new RationalNumber(5, 2);
 		RationalNumber r6 = new RationalNumber(6, 9);
 		
-		//identifiers to make it easier to see in the console
+		/**
+		 * identifiers to make it easier to see in the console
+		 */
 		System.out.println("r1 is: " +r1);
 		System.out.println("r2 is: " +r2);
 		System.out.println("r5 is: " +r5);
 		System.out.println("r6 is: " +r6);
 
+		/**
+		 * using if statements to figure out which is bigger or equal
+		 */
 		int compare = r1.compareTo(r2);
-//using if statements to figure out which is bigger or equal
+		
 		if(compare == 0)
 			System.out.println("They are equal");
 		else if(compare < 0)
@@ -31,7 +38,9 @@ public class Application
 		else 
 			System.out.println("R1 is greater");
 		
-		//compare rational numbers to each other to see which is larger
+		/**
+		 * compare rational numbers to each other to see which is larger
+		 */
 		compare = r5.compareTo(r6);
 //using if statements to figure out which is bigger or equal
 		if(compare == 0)

@@ -12,7 +12,10 @@ public interface Priority {
     static final int MIN_PRIORITY = 1;
     
     
-    //getters and setters for priority
+    /**
+     * getters and setters for priority
+     * @return
+     */
     public int getPriority ();
     
     public void setPriority (int priority);

@@ -52,6 +52,9 @@ public class Task implements Priority, Comparable<Task>
 		return priority;
 	}//end getPriority
 
+	/**
+	 * setPriority here to set up if a priority is equal or not to MIN, MED, or MAX priority
+	 */
 	public void setPriority(int priority) {
 		if(priority >= MIN_PRIORITY && priority <= MAX_PRIORITY)
 			this.priority = priority;
@@ -69,16 +72,26 @@ public class Task implements Priority, Comparable<Task>
 		return status;
 	}//end getStatus
 
+	/**
+	 * utilizing enum Status as a constant
+	 * @param status
+	 */
 	public void setStatus(Status status) {
 		this.status = status;
 	}//end setStatus
 	
 
 	@Override
+	/**
+	 * toString to be able to print out in the application class.
+	 */
 	public String toString() {
 		return "Priority = " + priority + ", Task name = " + name + ", status = " + status;
 	}//end toString
 	
+	/**
+	 * compareTo to compare whether one task has more priority
+	 */
 	public int compareTo(Task rhs)
 	{
 
